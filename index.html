@@ -140,6 +140,27 @@
       border: 0;
     }
 
+    .work-thumbnail {
+      width: 100%;
+      background: #000000;
+    }
+
+    .work-thumbnail img {
+      display: block;
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+    }
+
+    .external-card > div {
+      min-width: 0;
+    }
+
+    .work-content h3,
+    .work-description {
+      overflow-wrap: anywhere;
+    }
+
     .work-content {
       padding: 30px;
     }
@@ -304,6 +325,7 @@
         <div class="video-wrapper">
           <iframe
             src="https://www.youtube.com/embed/F-BcyH7_omQ"
+            referrerpolicy="strict-origin-when-cross-origin"
             title="ゲーム実況動画 制作実績"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen>
@@ -340,7 +362,8 @@
         <div class="video-wrapper">
           <iframe
             src="https://www.youtube.com/embed/ytg3-F2vqGg"
-            title="歌ってみたMV 制作実績"
+            referrerpolicy="strict-origin-when-cross-origin"
+            title="歌ってみたMV① 制作実績"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen>
           </iframe>
@@ -359,11 +382,11 @@
           </div>
 
           <h3>
-            歌ってみたMV
+            歌ってみたMV①
           </h3>
 
           <p class="work-description">
-            歌ってみたMVの制作を行いました。
+            歌ってみた楽曲に合わせて制作したミュージックビデオ。楽曲の雰囲気や歌詞の世界観を大切にしながら、映像の構成や演出を工夫した作品です。
           </p>
 
         </div>
@@ -373,12 +396,53 @@
       <!-- 03 -->
       <article class="work-card">
 
+        <div class="video-wrapper">
+          <iframe
+            src="https://www.youtube.com/embed/F9_m99BT7FM"
+            referrerpolicy="strict-origin-when-cross-origin"
+            title="歌ってみたMV② 制作実績"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+          </iframe>
+        </div>
+
+        <div class="work-content">
+
+          <div class="work-number">
+            WORK 03
+          </div>
+
+          <br>
+
+          <div class="work-category">
+            動画編集
+          </div>
+
+          <h3>
+            歌ってみたMV②
+          </h3>
+
+          <p class="work-description">
+            歌ってみた楽曲を題材にしたミュージックビデオ。音楽と映像が一体となる表現を目指し、テンポや視覚的な見せ方を意識して制作した作品です。
+          </p>
+
+        </div>
+      </article>
+
+
+      <!-- 04 -->
+      <article class="work-card">
+
+        <div class="work-thumbnail">
+          <img src="./fumikiri-op.png" alt="ノベルゲーム『踏切と君』のサムネイル" loading="lazy">
+        </div>
+
         <div class="work-content external-card">
 
           <div>
 
             <div class="work-number">
-              WORK 03
+              WORK 04
             </div>
 
             <br>
@@ -410,7 +474,7 @@
       </article>
 
 
-      <!-- 04 -->
+      <!-- 05 -->
       <article class="work-card">
 
         <div class="work-content external-card">
@@ -418,7 +482,7 @@
           <div>
 
             <div class="work-number">
-              WORK 04
+              WORK 05
             </div>
 
             <br>
@@ -448,38 +512,22 @@
         </div>
 
       </article>
-  <!-- 05 -->
+
+
+      <!-- 06 -->
       <article class="work-card">
-
-        <div class="video-wrapper">
-          <iframe
-            src="https://www.youtube.com/embed/F9_m99BT7FM"
-            title="歌ってみたMV 制作実績"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen>
-          </iframe>
+        <div class="work-thumbnail">
+          <img src="./narita-play.png" alt="NARITA PLAY｜成田空港あそび案内のサムネイル" loading="lazy">
         </div>
-
-        <div class="work-content">
-
-          <div class="work-number">
-            WORK 05
+        <div class="work-content external-card">
+          <div>
+            <div class="work-number">WORK 06</div>
+            <br>
+            <div class="work-category">Webサイト制作</div>
+            <h3>NARITA PLAY｜成田空港あそび案内</h3>
+            <p class="work-description">成田空港で楽しめる施設や体験を紹介するWebサイト。ターミナル別の絞り込みや、待ち時間に応じた過ごし方の提案など、利用者が目的に合った情報を探せる構成にしました。</p>
           </div>
-
-          <br>
-
-          <div class="work-category">
-            動画編集
-          </div>
-
-          <h3>
-            動画編集
-          </h3>
-
-          <p class="work-description">
-            動画編集の全工程を担当しました。
-          </p>
-
+          <a class="external-button" href="https://venerable-lamington-28a90d.netlify.app/#experiences" target="_blank" rel="noopener noreferrer">サイトを見る →</a>
         </div>
       </article>
 
